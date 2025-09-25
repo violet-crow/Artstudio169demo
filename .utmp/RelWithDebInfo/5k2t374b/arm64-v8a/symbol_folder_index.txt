@@ -1,0 +1,1 @@
+C:\Users\vagra\OneDrive\Documents\UNITY\Artstudio169_test_v1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\5k2t374b\obj\arm64-v8a
