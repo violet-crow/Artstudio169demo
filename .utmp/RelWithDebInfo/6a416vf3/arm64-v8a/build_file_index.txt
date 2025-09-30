@@ -1,0 +1,2 @@
+C:\Users\vagra\OneDrive\Documents\UNITY\Artstudio169demo\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\vagra\OneDrive\Documents\UNITY\Artstudio169demo\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
