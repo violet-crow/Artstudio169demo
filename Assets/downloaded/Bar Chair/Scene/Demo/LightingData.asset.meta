@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: af8d8705720c5c04e928339cd3ade104
+timeCreated: 1515888083
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 25800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 106895
+  packageName: Bar Chair 2
+  packageVersion: 1.0
+  assetPath: Assets/Bar Chair/Scene/Demo/LightingData.asset
+  uploadId: 223909
