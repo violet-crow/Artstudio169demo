@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/basic_world_building.unity
     guid: 0974bb7c7da58ed45ac6e1832036a8f1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/partyroom.unity
     guid: 60624f443c2146049a6a5182bfea794e
+  - enabled: 1
+    path: Assets/Scenes/room.unity
+    guid: 80eeed5e2fa2d0842a1d5ef4988e5d79
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0009a57ad164f2c4486f4068c0508f87, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
