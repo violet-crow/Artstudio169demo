@@ -17,6 +17,9 @@ public class BathroomGuideNPC : MonoBehaviour
     public float repathInterval = 0.25f;
     public float arrivalThreshold = 0.2f;
 
+    [Header("NPCDialogue")]
+    public NPCDialogue dialogueComponent;
+    
     [Header("Audio")]
     public AudioSource audioSource;
     public AudioClip approachLine;

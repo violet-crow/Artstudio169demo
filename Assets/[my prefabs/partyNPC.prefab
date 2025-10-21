@@ -144,8 +144,8 @@ GameObject:
   - component: {fileID: 2881023057082173406}
   - component: {fileID: 868445085929132410}
   - component: {fileID: 3000499244293943799}
-  - component: {fileID: 3651770221085331461}
   - component: {fileID: 4314546513506430963}
+  - component: {fileID: 3651770221085331461}
   - component: {fileID: 1120477936403947891}
   - component: {fileID: 680093787528510592}
   m_Layer: 0
@@ -239,18 +239,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8410327531480481712}
   m_CullTransparentMesh: 1
---- !u!114 &3651770221085331461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8410327531480481712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b98073d7862d4846837eacdd80b9ec8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &4314546513506430963
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -273,6 +261,18 @@ NavMeshAgent:
   m_BaseOffset: 8.87
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3651770221085331461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8410327531480481712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b98073d7862d4846837eacdd80b9ec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1120477936403947891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +327,7 @@ MonoBehaviour:
   talkPrompt: {fileID: 8612554348372601364}
   showPromptDistance: 2
   oneShot: 0
+  lookDotThreshold: 0.6
 --- !u!1001 &7693787811302595544
 PrefabInstance:
   m_ObjectHideFlags: 0

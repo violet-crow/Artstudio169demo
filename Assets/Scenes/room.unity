@@ -2279,9 +2279,49 @@ PrefabInstance:
     - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
       propertyPath: clip
       value: 
-      objectReference: {fileID: 8300000, guid: 96b58e75374b08549a11c4986368c7ca, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
       propertyPath: subtitleText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 96b58e75374b08549a11c4986368c7ca, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: ab7fce2a5750a3b43b3909e361b5f4cb, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c70b8c8067302a4e842bf04df27e675, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: bf54e94f28d23fd468a9f2ae7746ae6b, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 499ec6d150b618441bd3cc6baeb1023f, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 65179ca3b2c76f84a9f19947bdc6cdb3, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 67ae39b263d47d34aaca6e031bfc375e, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[7].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c7303595b07f1644becac9861614f0f, type: 3}
+    - target: {fileID: 680093787528510592, guid: 0e53fc5061985e941b0c5f3ddc93ec26, type: 3}
+      propertyPath: dialogues.Array.data[0].subtitles
       value: "Country music is like \u201Cwhat if we combined some sick ass guitars
         and like, and like a lot of alcoholism, and just like a tiny sprinkle of
         misogyny and we made the best breakup song ever created, like what if we
@@ -2931,11 +2971,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 291132826}
   m_SourcePrefab: {fileID: 100100000, guid: 51e4a064d7afae04a96203b7dcee2a3b, type: 3}
---- !u!82 &594166276 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8679287064118903200, guid: 51e4a064d7afae04a96203b7dcee2a3b, type: 3}
-  m_PrefabInstance: {fileID: 594166275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &598828468
 GameObject:
   m_ObjectHideFlags: 0
@@ -6605,7 +6640,7 @@ MonoBehaviour:
   emissiveColorProperty: _EmissionColor
   musicSource: {fileID: 900321808}
   partyAmbientSource: {fileID: 620398949}
-  fightAmbientSource: {fileID: 594166276}
+  fightAmbientSource: {fileID: 19974072}
   audioFadeDuration: 3
   desaturator: {fileID: 2040432027}
   desaturationTarget: -75
@@ -12391,11 +12426,12 @@ MonoBehaviour:
   mainRoomMood: {fileID: 1402645225}
   player: {fileID: 716861909}
   bathroomWaypoint: {fileID: 237333504}
-  initialDelay: 60
+  initialDelay: 5
   speed: 1.26
   approachDistance: 3
   repathInterval: 0.25
   arrivalThreshold: 0.2
+  dialogueComponent: {fileID: 0}
   audioSource: {fileID: 1827440541}
   approachLine: {fileID: 8300000, guid: 984f6eed7800ce642b36c2492f4c6051, type: 3}
   vomitingSfx: {fileID: 8300000, guid: a34b24d11cb648848816da947f18eefe, type: 3}
